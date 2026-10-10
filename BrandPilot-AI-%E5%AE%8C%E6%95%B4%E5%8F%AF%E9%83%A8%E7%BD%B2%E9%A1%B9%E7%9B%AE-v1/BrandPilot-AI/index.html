@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="theme-color" content="#101729"/>
+  <meta name="description" content="BrandPilot AI — 从营销Brief到可执行增长方案的AI营销策略自动化工具。"/>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
+  <link rel="stylesheet" href="/styles.css"/>
+  <title>BrandPilot AI — 智能营销策略工作台</title>
+</head>
+<body>
+  <svg width="0" height="0" class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.9 6.1L20 11l-6.1 1.9L12 19l-1.9-6.1L4 11l6.1-1.9L12 3ZM20 17l.7 2.3L23 20l-2.3.7L20 23l-.7-2.3L17 20l2.3-.7L20 17ZM4 2l.7 2.3L7 5l-2.3.7L4 8l-.7-2.3L1 5l2.3-.7L4 2Z"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M13 2v7h7M8 13h8M8 17h8"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18M7 16l4-5 3 3 6-8"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M2.5 21v-2a6.5 6.5 0 0 1 13 0v2H2.5ZM17 5a3 3 0 0 1 0 6M20.5 21v-2a6 6 0 0 0-3.3-5.4"/></symbol>
+    <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="M3 10v4h4l3 5h3l-3-6h1l9 5V6l-9 4H3Z"/><path d="M7 14v5"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M2 12h4l3-7 5 14 3-7h5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14-5L4 8m0-5v5h5M4 13a8 8 0 0 0 14 5l2-2m0 5v-5h-5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9 9a3 3 0 0 1 6 0c0 2-3 2.5-3 5m0 3v.5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 11v6m0-10v.5"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="m7 14 5-5 5 5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-emblem"><svg class="icon fill-icon"><use href="#i-sparkles"/></svg></div><div><div class="brand-name">BrandPilot<span>AI</span></div><div class="brand-subtitle">MARKETING INTELLIGENCE</div></div></div>
+      <div class="sidebar-caption">WORKSPACE</div>
+      <nav class="nav-links" aria-label="主导航">
+        <button class="nav-item active" data-nav="workspace"><svg class="icon"><use href="#i-grid"/></svg><span>智能工作台</span><span class="nav-indicator"></span></button>
+        <button class="nav-item" data-nav="report"><svg class="icon"><use href="#i-file"/></svg><span>营销方案</span></button>
+        <button class="nav-item" data-nav="about"><svg class="icon"><use href="#i-help"/></svg><span>项目说明</span></button>
+      </nav>
+      <div class="sidebar-caption second-caption">YOUR WORKFLOW</div>
+      <div class="side-steps"><div><i>01</i><span>解析品牌 Brief</span></div><div><i>02</i><span>构建消费者洞察</span></div><div><i>03</i><span>形成整合策略</span></div><div><i>04</i><span>生成 AIGC 内容</span></div><div><i>05</i><span>规划执行与复盘</span></div></div>
+      <div class="side-footer"><div class="side-footer-icon"><svg class="icon"><use href="#i-sparkles"/></svg></div><div class="side-footer-title">让创意，更有方向。</div><p>用 AI 缩短从洞察到执行的距离，让营销策略可复用、可验证。</p><div class="side-footer-line"></div><span>PORTFOLIO PROJECT · 2027</span></div>
+    </aside>
+
+    <main class="main" id="workspace">
+      <header class="topbar"><button class="mobile-menu icon-button" aria-label="打开菜单" id="menuButton"><svg class="icon"><use href="#i-menu"/></svg></button><div class="crumb">工作空间 <svg class="icon tiny"><use href="#i-chevron"/></svg> <strong>智能营销工作台</strong></div><div class="topbar-right"><span class="status-pill" id="apiStatus"><span class="status-dot"></span>正在检查 AI 服务</span><span class="avatar">BP</span></div></header>
+
+      <div class="page-content">
+        <section class="hero">
+          <div class="hero-glow"></div>
+          <div class="hero-content"><div class="hero-eyebrow"><span class="tiny-star">✦</span> YOUR AI MARKETING COPILOT <span class="version">V1.0</span></div><h1>让每一个营销想法，<br/>都有<span>清晰的增长路径。</span></h1><p>从品牌需求到用户洞察，从创意策略到执行落地。<br class="desktop-only"/>将一份 Brief，转化为一套结构化、可执行的营销方案。</p><div class="hero-badges"><span>✦ 策略洞察</span><span>✦ AIGC 创意</span><span>✦ 营销自动化</span></div></div>
+          <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-node node-a"><span>01</span><b>INSIGHT</b></div><div class="hero-node node-b"><span>02</span><b>STRATEGY</b></div><div class="hero-node node-c"><span>03</span><b>CREATE</b></div><div class="hero-center"><svg class="icon fill-icon"><use href="#i-sparkles"/></svg><span>AI</span></div><div class="hero-particle p1"></div><div class="hero-particle p2"></div><div class="hero-particle p3"></div></div>
+        </section>
+
+        <section class="quick-stats" aria-label="产品能力"><div class="stat"><span class="stat-icon purple"><svg class="icon"><use href="#i-target"/></svg></span><div><strong>6<span>+</span></strong><p>核心策略模块</p></div><span class="stat-side">全链路规划</span></div><div class="stat"><span class="stat-icon sky"><svg class="icon"><use href="#i-megaphone"/></svg></span><div><strong>3<span>+</span></strong><p>创意内容形式</p></div><span class="stat-side">多平台适配</span></div><div class="stat"><span class="stat-icon orange"><svg class="icon"><use href="#i-calendar"/></svg></span><div><strong>7<span>天</span></strong><p>营销执行计划</p></div><span class="stat-side">从想法到落地</span></div></section>
+
+        <div class="workspace-heading"><div><span class="overline">START YOUR STRATEGY</span><h2>AI 营销策略生成器 <span class="heading-sparkle">✳</span></h2><p>告诉 AI 你的品牌需求，即可自动生成完整营销工作方案。</p></div><button class="ghost-button" id="openAbout"><svg class="icon"><use href="#i-info"/></svg> 使用说明</button></div>
+
+        <div class="work-grid">
+          <section class="form-card" id="briefCard"><div class="card-top"><div><span class="card-top-kicker">STEP 01 / INPUT</span><h3>填写营销 Brief</h3></div><span class="form-card-icon"><svg class="icon"><use href="#i-file"/></svg></span></div><p class="form-intro">越清晰的输入，越能生成贴合业务的策略建议。</p>
+            <form id="briefForm" novalidate>
+              <div class="field-grid"><div class="field"><label for="brand">品牌名称 <em>*</em></label><input id="brand" maxlength="80" placeholder="例如：AURA Pods" required/></div><div class="field"><label for="industry">所属行业</label><select id="industry"><option value="消费电子">消费电子</option><option value="快消品">快消品</option><option value="美妆个护">美妆个护</option><option value="食品饮料">食品饮料</option><option value="家居生活">家居生活</option><option value="跨境电商">跨境电商</option><option value="其他">其他</option></select></div></div>
+              <div class="field"><label for="product">产品 / 服务介绍 <em>*</em></label><textarea id="product" rows="2" maxlength="220" placeholder="产品名称、价格带、主要功能..." required></textarea></div>
+              <div class="field"><label for="sellingPoints">核心卖点</label><textarea id="sellingPoints" rows="2" maxlength="600" placeholder="例如：长续航、主动降噪、轻量佩戴"></textarea></div>
+              <div class="field"><label for="audience">目标消费者 <em>*</em></label><textarea id="audience" rows="2" maxlength="240" placeholder="例如：18-30岁学生及初入职场人群" required></textarea></div>
+              <div class="field-grid"><div class="field"><label for="objective">营销目标 <em>*</em></label><select id="objective"><option value="新品上市与品牌认知">新品上市与品牌认知</option><option value="种草与潜客获取">种草与潜客获取</option><option value="电商销售转化">电商销售转化</option><option value="品牌形象升级">品牌形象升级</option><option value="活动营销与用户互动">活动营销与用户互动</option></select></div><div class="field"><label for="budget">营销预算</label><input id="budget" maxlength="80" placeholder="例如：10万元"/></div></div>
+              <div class="field"><label>推广渠道 <em>*</em> <small>可多选</small></label><div class="channel-options" id="channels"><label class="channel"><input type="checkbox" value="小红书" checked/><span>小红书</span></label><label class="channel"><input type="checkbox" value="抖音" checked/><span>抖音</span></label><label class="channel"><input type="checkbox" value="视频号"/><span>视频号</span></label><label class="channel"><input type="checkbox" value="B站"/><span>B站</span></label><label class="channel"><input type="checkbox" value="微博"/><span>微博</span></label><label class="channel"><input type="checkbox" value="微信社群"/><span>微信社群</span></label><label class="channel"><input type="checkbox" value="搜索广告"/><span>搜索广告</span></label></div></div>
+              <details class="advanced"><summary>更多信息（选填）<svg class="icon"><use href="#i-chevron"/></svg></summary><div class="advanced-inner"><div class="field"><label for="market">目标市场</label><input id="market" maxlength="120" placeholder="例如：中国一二线城市"/></div><div class="field"><label for="competitors">竞品 / 参考品牌</label><input id="competitors" maxlength="320" placeholder="例如：同价位音频品牌"/></div><div class="field"><label for="brandTone">品牌语气</label><select id="brandTone"><option value="年轻、专业、有温度">年轻、专业、有温度</option><option value="高端、克制、科技感">高端、克制、科技感</option><option value="轻松、活泼、有趣">轻松、活泼、有趣</option><option value="真实、亲切、生活化">真实、亲切、生活化</option></select></div><div class="field"><label for="notes">其他限制或补充要求</label><textarea id="notes" rows="2" maxlength="500" placeholder="例如：不要承诺未经证实的产品性能"></textarea></div></div></details>
+              <div class="form-actions"><button type="submit" class="primary-button" id="generateButton"><svg class="icon fill-icon"><use href="#i-sparkles"/></svg><span>生成 AI 营销方案</span><svg class="icon trailing"><use href="#i-arrow"/></svg></button><div class="form-secondary"><button type="button" class="text-button" id="resetSample"><svg class="icon"><use href="#i-refresh"/></svg> 填入示例</button><button type="button" class="text-button" id="clearForm">清空表单</button></div></div>
+              <p class="form-note"><svg class="icon"><use href="#i-info"/></svg> AI 生成内容仅供策略参考，正式投放前请人工校验。</p>
+            </form>
+          </section>
+
+          <section class="report-card" id="reportCard"><div class="report-header"><div><span class="card-top-kicker">STEP 02 / OUTPUT</span><h3>AI 策略报告 <span class="sparkle-small">✧</span></h3></div><div class="report-actions"><button class="mini-button" id="copyReport" title="复制完整报告"><svg class="icon"><use href="#i-copy"/></svg><span>复制</span></button><button class="mini-button" id="downloadReport" title="导出 Markdown 报告"><svg class="icon"><use href="#i-download"/></svg><span>导出</span></button></div></div>
+            <div class="report-status" id="reportStatus"><span class="sample-label"><svg class="icon"><use href="#i-info"/></svg> 预设示例报告 · 非实时 AI 生成</span><span class="status-detail">用于展示应用功能与版式</span></div>
+            <div class="report-title" id="reportTitle"><span class="report-overline">CAMPAIGN BLUEPRINT</span><h3>AURA Pods · 让通勤拥有自己的声音</h3><p>针对年轻通勤族的高性价比降噪耳机新品整合营销提案</p></div>
+            <div class="report-tabs" id="reportTabs" role="tablist" aria-label="策略报告页面"><button class="tab active" role="tab" aria-selected="true" data-tab="overview">总览</button><button class="tab" role="tab" aria-selected="false" data-tab="audience">用户洞察</button><button class="tab" role="tab" aria-selected="false" data-tab="strategy">渠道策略</button><button class="tab" role="tab" aria-selected="false" data-tab="creative">创意内容</button><button class="tab" role="tab" aria-selected="false" data-tab="execution">执行计划</button><button class="tab" role="tab" aria-selected="false" data-tab="measurement">指标复盘</button></div>
+            <div class="report-body" id="reportBody"><div class="report-placeholder"><span class="placeholder-spinner"></span><p>正在加载示例报告...</p></div></div>
+            <div class="report-footnote"><svg class="icon"><use href="#i-info"/></svg><span id="reportFootnote">示例仅用于界面展示，不代表已开展真实调研或投放。</span></div>
+          </section>
+        </div>
+
+        <section class="bottom-note"><div class="bottom-note-icon"><svg class="icon"><use href="#i-sparkles"/></svg></div><div><strong>Human × AI · 让专业判断与技术效率协同</strong><p>本工具围绕营销 Brief 解析、消费者洞察、策略输出、创意生成与执行规划设计。AI 提供初稿，人负责验证与决策。</p></div><span>MADE FOR MARKETING</span></section>
+        <footer class="footer"><span>© 2026 BrandPilot AI · Portfolio Demonstration</span><span>独立求职作品 · 非蓝色光标官方产品</span></footer>
+      </div>
+    </main>
+  </div>
+  <div class="modal-mask" id="aboutModal" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="icon-button close-modal" id="closeAbout" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button><div class="modal-badge">HOW IT WORKS</div><h2 id="modalTitle">关于 BrandPilot AI</h2><p>这是为 AI 营销解决方案场景设计的独立演示产品。通过结构化营销 Brief 与真实大语言模型接口，自动输出用户洞察、整合营销策略、AIGC 创意和可执行计划。</p><div class="modal-points"><div><b>01</b><span>填入营销需求并选择传播渠道。</span></div><div><b>02</b><span>配置模型 API Key 后，点击「生成 AI 营销方案」。</span></div><div><b>03</b><span>查看六个策略模块，一键导出 Markdown 报告。</span></div></div><div class="modal-warning">首次打开默认展示的是<strong>预设示例</strong>；只有点击「生成」并成功获得服务端模型返回的数据，才会标记为「AI 实时生成」。模型生成的推测不代表真实市场数据。</div><button class="primary-button" id="modalOkay">开始使用 <svg class="icon"><use href="#i-arrow"/></svg></button></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/sample-report.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
